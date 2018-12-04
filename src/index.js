@@ -1,6 +1,4 @@
-import sayHello from './hello';
-import './index.scss';
-
-document.getElementById('root').innerHTML = sayHello();
-
-
+import "./index.scss";
+import Init from "./containers/first";
+console.clear();
+Init();
